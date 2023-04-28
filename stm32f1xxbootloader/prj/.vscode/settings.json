@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "hal_modem.h": "c",
+        "bsp_master_usart.h": "c",
+        "stm32f10x.h": "c",
+        "bsp_systick.h": "c",
+        "misc.h": "c",
+        "stm32f10x_flash.h": "c",
+        "stdlib.h": "c",
+        "bsp_flash.h": "c",
+        "core_cm3.h": "c",
+        "stdio.h": "c",
+        "stddef.h": "c"
+    }
+}

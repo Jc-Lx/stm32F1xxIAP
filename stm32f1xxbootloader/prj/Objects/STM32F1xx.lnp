@@ -1,0 +1,18 @@
+--cpu Cortex-M3
+".\objects\startup_stm32f10x_md.o"
+".\objects\misc.o"
+".\objects\stm32f10x_rcc.o"
+".\objects\stm32f10x_flash.o"
+".\objects\stm32f10x_gpio.o"
+".\objects\stm32f10x_usart.o"
+".\objects\main.o"
+".\objects\stm32f10x_it.o"
+".\objects\system_stm32f10x.o"
+".\objects\bsp_systick.o"
+".\objects\bsp_flash.o"
+".\objects\bsp_master_usart.o"
+".\objects\hal_modem.o"
+--library_type=microlib --strict --scatter ".\Objects\STM32F1xx.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\STM32F1xx.map" -o .\Objects\STM32F1xx.axf
