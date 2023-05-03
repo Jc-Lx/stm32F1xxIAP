@@ -1,9 +1,9 @@
 # stm32F1xxbootloader
 ## 简介
-    这是一个设计用于stm32f1系列mcu的IAP启动引导程序。固件文件传输移植hal_modem框架，采用标准的YMODEM-1K协议通过串口传输数据。
+这是一个设计用于stm32F1系列mcu的IAP启动引导程序。固件文件传输移植hal_modem框架，采用标准的YMODEM-1K协议通过串口传输数据。
 
     stm32f103c8t6应用举例，编译环境KEIL_5.36 编译器armclang 6.16。
-    内存分配如下：
+内存分配如下：
 | 内存分配 | 地址 | 大小 |
 | :---: | :---: | :---: |
 | Bootloader | 0x08000000---0x08003000 | 10kb |
