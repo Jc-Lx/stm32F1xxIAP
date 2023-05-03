@@ -24,7 +24,7 @@ hal_modem_handle_t handle = hal_modem_start(&config);
 ```
 2. 将hal_modem_machine_run()接口放置于频率大于200Hz的循环中（中断中不支持）。
 ```c
-while(1) {
+for(;;) {
         hal_modem_machine_run(&handle);
     }
 ```   
